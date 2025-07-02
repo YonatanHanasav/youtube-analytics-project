@@ -134,18 +134,18 @@ Follow these steps to set up and run the project locally:
    ```
 
 4. **Set up environment variables**
-   - Create a `.env` file in the project root (not included in the repo for security). Use this template:
+   Create a `.env` file in the project root (not included in the repo for security), use this template:
 
-     ```
-     YOUTUBE_API_KEY=your_youtube_api_key_here
-     DB_NAME=youtube_db
-     DB_USER=airflow
-     DB_PASSWORD=airflow
-     DB_HOST=postgres
-     DB_PORT=5432
-     BATCH_SIZE=50
-     MAX_CHANNELS=1000
-     ```
+   ```
+   YOUTUBE_API_KEY=your_youtube_api_key_here
+   DB_NAME=youtube_db
+   DB_USER=airflow
+   DB_PASSWORD=airflow
+   DB_HOST=postgres
+   DB_PORT=5432
+   BATCH_SIZE=50
+   MAX_CHANNELS=1000
+   ```
 
 ### 2. Install Docker Desktop
 Ensure Docker Desktop is installed and running on your machine.
@@ -186,10 +186,10 @@ docker compose up -d
 - **Historical data preservation** for trend analysis
 - **SaaS/product-analytics-ready** data model
 
-## Next Steps / Roadmap
-- [ ] **Streamlit Dashboard** - Interactive data visualization
-- [ ] **Alerting System** - Notifications for significant changes
-- [ ] **Performance Optimization** - Parallel processing and caching
+## Roadmap
+- **Streamlit Dashboard** - Interactive data visualization
+- **Alerting System** - Notifications for significant changes
+- **Performance Optimization** - Parallel processing and caching
 
 ## Notes
 - Built to demonstrate product analytics mindset for SaaS roles in high-tech
