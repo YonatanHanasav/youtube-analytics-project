@@ -45,14 +45,26 @@ flowchart TD
 │   ├── transform_kpis.py        # KPI transformation logic
 │   └── youtube_etl.py           # Orchestrates ETL steps
 ├── data/                  # Static input (e.g. channel list CSV)
-│   ├── unique_channels.csv      # List of YouTube channels to track
-│   └── US_youtube_trending_data.csv
-├── logs/                  # Airflow logs
-├── .env                   # API keys and secrets (not in repo)
+│   └── unique_channels.csv      # List of YouTube channels to track
+├── tests/                 # Unit tests for ETL scripts
 ├── docker-compose.yml     # Multi-container config
 ├── requirements.txt       # Python dependencies
-└── tests/                 # Unit tests for ETL scripts
+├── README.md              # Project documentation
+├── .gitignore             # Git ignore rules
+└── .env                   # API keys and secrets (not tracked in git)
 ```
+
+## Data Sources
+
+- **data/unique_channels.csv**:  
+  This file contains a curated list of YouTube channel IDs and names to be tracked by the pipeline. It serves as the input for the ETL process, allowing the pipeline to know which channels to extract data for each run.
+  
+  *Why?*  
+  Using a static CSV makes the pipeline reproducible and easy to demo, and allows users to customize which channels are analyzed by editing this file.
+
+- **YouTube Data API v3**:  
+  The YouTube Data API v3 is an official Google API that allows applications to retrieve and manage YouTube resources such as videos, channels, and playlists. In this project, it is used to programmatically extract up-to-date channel statistics and metadata for youtube channels.
+This enables automated, scalable, and reliable data collection directly from YouTube.
 
 ## Data Model & KPIs Tracked
 
