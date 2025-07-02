@@ -13,6 +13,26 @@ This project is a product-oriented, end-to-end ETL pipeline designed for SaaS-st
 - **Python 3.9**: ETL logic
 - **Docker Compose**: Multi-service setup
 
+## ETL Pipeline Flow Diagram
+
+```mermaid
+flowchart TD
+    A["YouTube Data API"] -->|"Extract"| B["Extract Script (extract_youtube_data.py)"]
+    C["unique_channels.csv"] -->|"Extract"| B
+    B -->|"Transform"| D["Transform Script (transform_kpis.py)"]
+    D -->|"Load"| E["Load Script (load_to_postgres.py)"]
+    E -->|"Store"| F[("PostgreSQL Database")]
+    F -->|"Query/Analysis"| G["Analytics & Reporting"]
+    subgraph "Airflow DAG (youtube_etl_dag.py)"
+        B
+        D
+        E
+    end
+    B -.->|"Logs"| H["Logs/Monitoring"]
+    D -.->|"Logs"| H
+    E -.->|"Logs"| H
+```
+
 ## Folder Structure
 
 ```
