@@ -1,0 +1,24 @@
+[2025-06-30T10:36:49.624+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: youtube_kpi_daily_batch.run_batch_youtube_etl manual__2025-06-30T10:36:48.940236+00:00 [queued]>
+[2025-06-30T10:36:49.629+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: youtube_kpi_daily_batch.run_batch_youtube_etl manual__2025-06-30T10:36:48.940236+00:00 [queued]>
+[2025-06-30T10:36:49.629+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-06-30T10:36:49.760+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): run_batch_youtube_etl> on 2025-06-30 10:36:48.940236+00:00
+[2025-06-30T10:36:49.763+0000] {standard_task_runner.py:60} INFO - Started process 178 to run task
+[2025-06-30T10:36:49.766+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'youtube_kpi_daily_batch', 'run_batch_youtube_etl', 'manual__2025-06-30T10:36:48.940236+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/youtube_etl_dag.py', '--cfg-path', '/tmp/tmp1pqfmx4b']
+[2025-06-30T10:36:49.767+0000] {standard_task_runner.py:88} INFO - Job 16: Subtask run_batch_youtube_etl
+[2025-06-30T10:36:49.785+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.9/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-06-30T10:36:49.805+0000] {task_command.py:423} INFO - Running <TaskInstance: youtube_kpi_daily_batch.run_batch_youtube_etl manual__2025-06-30T10:36:48.940236+00:00 [running]> on host f52b64ea71aa
+[2025-06-30T10:36:49.845+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='yonatan' AIRFLOW_CTX_DAG_ID='youtube_kpi_daily_batch' AIRFLOW_CTX_TASK_ID='run_batch_youtube_etl' AIRFLOW_CTX_EXECUTION_DATE='2025-06-30T10:36:48.940236+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-30T10:36:48.940236+00:00'
+[2025-06-30T10:36:49.868+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCvtRTOMP2TqYqu51xNrqAzg
+[2025-06-30T10:36:50.837+0000] {logging_mixin.py:188} INFO - Failed for UCvtRTOMP2TqYqu51xNrqAzg: current transaction is aborted, commands ignored until end of transaction block
+[2025-06-30T10:36:50.838+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UC0ZV6M2THA81QT9hrVWJG3A
+[2025-06-30T10:36:51.773+0000] {logging_mixin.py:188} INFO - Failed for UC0ZV6M2THA81QT9hrVWJG3A: current transaction is aborted, commands ignored until end of transaction block
+[2025-06-30T10:36:51.774+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCYzPXprvl5Y-Sf0g4vX-m6g
+[2025-06-30T10:36:52.585+0000] {logging_mixin.py:188} INFO - Failed for UCYzPXprvl5Y-Sf0g4vX-m6g: current transaction is aborted, commands ignored until end of transaction block
+[2025-06-30T10:36:52.585+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCbg_UMjlHJg_19SZckaKajg
+[2025-06-30T10:36:53.277+0000] {logging_mixin.py:188} INFO - Failed for UCbg_UMjlHJg_19SZckaKajg: current transaction is aborted, commands ignored until end of transaction block
+[2025-06-30T10:36:53.277+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCDVPcEbVLQgLZX0Rt6jo34A
+[2025-06-30T10:36:54.105+0000] {logging_mixin.py:188} INFO - Failed for UCDVPcEbVLQgLZX0Rt6jo34A: current transaction is aborted, commands ignored until end of transaction block
+[2025-06-30T10:36:54.106+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-06-30T10:36:54.117+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=youtube_kpi_daily_batch, task_id=run_batch_youtube_etl, execution_date=20250630T103648, start_date=20250630T103649, end_date=20250630T103654
+[2025-06-30T10:36:54.156+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-06-30T10:36:54.168+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

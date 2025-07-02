@@ -1,0 +1,114 @@
+[2025-06-29T12:56:13.629+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: youtube_kpi_daily_batch.run_batch_youtube_etl manual__2025-06-29T12:56:13+00:00 [queued]>
+[2025-06-29T12:56:13.633+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: youtube_kpi_daily_batch.run_batch_youtube_etl manual__2025-06-29T12:56:13+00:00 [queued]>
+[2025-06-29T12:56:13.634+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-06-29T12:56:13.751+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): run_batch_youtube_etl> on 2025-06-29 12:56:13+00:00
+[2025-06-29T12:56:13.754+0000] {standard_task_runner.py:60} INFO - Started process 342 to run task
+[2025-06-29T12:56:13.759+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'youtube_kpi_daily_batch', 'run_batch_youtube_etl', 'manual__2025-06-29T12:56:13+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/youtube_etl_dag.py', '--cfg-path', '/tmp/tmpn4vh3b1f']
+[2025-06-29T12:56:13.761+0000] {standard_task_runner.py:88} INFO - Job 13: Subtask run_batch_youtube_etl
+[2025-06-29T12:56:13.769+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.9/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-06-29T12:56:13.786+0000] {task_command.py:423} INFO - Running <TaskInstance: youtube_kpi_daily_batch.run_batch_youtube_etl manual__2025-06-29T12:56:13+00:00 [running]> on host 9b1095dedf0a
+[2025-06-29T12:56:13.825+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='yonatan' AIRFLOW_CTX_DAG_ID='youtube_kpi_daily_batch' AIRFLOW_CTX_TASK_ID='run_batch_youtube_etl' AIRFLOW_CTX_EXECUTION_DATE='2025-06-29T12:56:13+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-29T12:56:13+00:00'
+[2025-06-29T12:56:13.834+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCvtRTOMP2TqYqu51xNrqAzg
+[2025-06-29T12:56:14.022+0000] {logging_mixin.py:188} INFO - Failed for UCvtRTOMP2TqYqu51xNrqAzg: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCvtRTOMP2TqYqu51xNrqAzg&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:14.023+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UC0ZV6M2THA81QT9hrVWJG3A
+[2025-06-29T12:56:14.206+0000] {logging_mixin.py:188} INFO - Failed for UC0ZV6M2THA81QT9hrVWJG3A: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UC0ZV6M2THA81QT9hrVWJG3A&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:14.209+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCYzPXprvl5Y-Sf0g4vX-m6g
+[2025-06-29T12:56:14.400+0000] {logging_mixin.py:188} INFO - Failed for UCYzPXprvl5Y-Sf0g4vX-m6g: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCYzPXprvl5Y-Sf0g4vX-m6g&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:14.404+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCbg_UMjlHJg_19SZckaKajg
+[2025-06-29T12:56:14.605+0000] {logging_mixin.py:188} INFO - Failed for UCbg_UMjlHJg_19SZckaKajg: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCbg_UMjlHJg_19SZckaKajg&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:14.609+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCDVPcEbVLQgLZX0Rt6jo34A
+[2025-06-29T12:56:14.807+0000] {logging_mixin.py:188} INFO - Failed for UCDVPcEbVLQgLZX0Rt6jo34A: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCDVPcEbVLQgLZX0Rt6jo34A&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:14.811+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UC5zJwsFtEs9WYe3A76p7xIA
+[2025-06-29T12:56:14.996+0000] {logging_mixin.py:188} INFO - Failed for UC5zJwsFtEs9WYe3A76p7xIA: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UC5zJwsFtEs9WYe3A76p7xIA&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:14.999+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCDSJCBYqL7VQrlXfhr1RtwA
+[2025-06-29T12:56:15.202+0000] {logging_mixin.py:188} INFO - Failed for UCDSJCBYqL7VQrlXfhr1RtwA: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCDSJCBYqL7VQrlXfhr1RtwA&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:15.208+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UC2C_jShtL725hvbm1arSV9w
+[2025-06-29T12:56:15.402+0000] {logging_mixin.py:188} INFO - Failed for UC2C_jShtL725hvbm1arSV9w: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UC2C_jShtL725hvbm1arSV9w&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:15.403+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCZDdF_p-L88NWVpzF0vjvMQ
+[2025-06-29T12:56:15.602+0000] {logging_mixin.py:188} INFO - Failed for UCZDdF_p-L88NWVpzF0vjvMQ: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCZDdF_p-L88NWVpzF0vjvMQ&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:15.605+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UC648rgJOboZlgcDbW00vTSA
+[2025-06-29T12:56:15.783+0000] {logging_mixin.py:188} INFO - Failed for UC648rgJOboZlgcDbW00vTSA: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UC648rgJOboZlgcDbW00vTSA&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:15.787+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCtinbF-Q-fVthA0qrFQTgXQ
+[2025-06-29T12:56:15.965+0000] {logging_mixin.py:188} INFO - Failed for UCtinbF-Q-fVthA0qrFQTgXQ: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCtinbF-Q-fVthA0qrFQTgXQ&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:15.968+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCYJPby9DRCteedh5tfxVbrw
+[2025-06-29T12:56:16.157+0000] {logging_mixin.py:188} INFO - Failed for UCYJPby9DRCteedh5tfxVbrw: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCYJPby9DRCteedh5tfxVbrw&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:16.159+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCBMvc6jvuTxH6TNo9ThpYjg
+[2025-06-29T12:56:16.337+0000] {logging_mixin.py:188} INFO - Failed for UCBMvc6jvuTxH6TNo9ThpYjg: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCBMvc6jvuTxH6TNo9ThpYjg&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:16.339+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UC1X3TRsCt36QPjF1p5f3HTg
+[2025-06-29T12:56:16.517+0000] {logging_mixin.py:188} INFO - Failed for UC1X3TRsCt36QPjF1p5f3HTg: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UC1X3TRsCt36QPjF1p5f3HTg&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:16.521+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCR9NuNwCUIhMOLUQnLN7_WA
+[2025-06-29T12:56:16.719+0000] {logging_mixin.py:188} INFO - Failed for UCR9NuNwCUIhMOLUQnLN7_WA: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCR9NuNwCUIhMOLUQnLN7_WA&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:16.723+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCMw7m-ScQ6jV1FQzQnn1y8Q
+[2025-06-29T12:56:16.923+0000] {logging_mixin.py:188} INFO - Failed for UCMw7m-ScQ6jV1FQzQnn1y8Q: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCMw7m-ScQ6jV1FQzQnn1y8Q&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:16.927+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UC2rJLq19N0dGrxfib80M_fg
+[2025-06-29T12:56:17.115+0000] {logging_mixin.py:188} INFO - Failed for UC2rJLq19N0dGrxfib80M_fg: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UC2rJLq19N0dGrxfib80M_fg&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:17.120+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCuxlXCfVyV-i5YLL30jkomw
+[2025-06-29T12:56:17.313+0000] {logging_mixin.py:188} INFO - Failed for UCuxlXCfVyV-i5YLL30jkomw: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCuxlXCfVyV-i5YLL30jkomw&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:17.314+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCCgLoMYIyP0U56dEhEL1wXQ
+[2025-06-29T12:56:17.494+0000] {logging_mixin.py:188} INFO - Failed for UCCgLoMYIyP0U56dEhEL1wXQ: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCCgLoMYIyP0U56dEhEL1wXQ&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:17.497+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCaO6TYtlC8U5ttz62hTrZgg
+[2025-06-29T12:56:17.684+0000] {logging_mixin.py:188} INFO - Failed for UCaO6TYtlC8U5ttz62hTrZgg: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCaO6TYtlC8U5ttz62hTrZgg&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:17.686+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCY1kMZp36IQSyNx_9h4mpCg
+[2025-06-29T12:56:17.866+0000] {logging_mixin.py:188} INFO - Failed for UCY1kMZp36IQSyNx_9h4mpCg: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCY1kMZp36IQSyNx_9h4mpCg&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:17.870+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCOpcACMWblDls9Z6GERVi1A
+[2025-06-29T12:56:18.068+0000] {logging_mixin.py:188} INFO - Failed for UCOpcACMWblDls9Z6GERVi1A: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCOpcACMWblDls9Z6GERVi1A&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:18.072+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCilwZiBBfI9X6yiZRzWty8Q
+[2025-06-29T12:56:18.266+0000] {logging_mixin.py:188} INFO - Failed for UCilwZiBBfI9X6yiZRzWty8Q: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCilwZiBBfI9X6yiZRzWty8Q&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:18.268+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCucot-Zp428OwkyRm2I7v2Q
+[2025-06-29T12:56:18.448+0000] {logging_mixin.py:188} INFO - Failed for UCucot-Zp428OwkyRm2I7v2Q: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCucot-Zp428OwkyRm2I7v2Q&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:18.451+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCWwWOFsW68TqXE-HZLC3WIA
+[2025-06-29T12:56:18.634+0000] {logging_mixin.py:188} INFO - Failed for UCWwWOFsW68TqXE-HZLC3WIA: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCWwWOFsW68TqXE-HZLC3WIA&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:18.638+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCB9_VH_CNbbH4GfKu8qh63w
+[2025-06-29T12:56:18.831+0000] {logging_mixin.py:188} INFO - Failed for UCB9_VH_CNbbH4GfKu8qh63w: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCB9_VH_CNbbH4GfKu8qh63w&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:18.831+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCtpzjafUx5qbmxJdqm4-qmg
+[2025-06-29T12:56:19.003+0000] {logging_mixin.py:188} INFO - Failed for UCtpzjafUx5qbmxJdqm4-qmg: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCtpzjafUx5qbmxJdqm4-qmg&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:19.006+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCDQBZcjYKP1J1Nu-Y0_D37Q
+[2025-06-29T12:56:19.189+0000] {logging_mixin.py:188} INFO - Failed for UCDQBZcjYKP1J1Nu-Y0_D37Q: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCDQBZcjYKP1J1Nu-Y0_D37Q&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:19.193+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UC0BletW9phE4xHFM44q4qKA
+[2025-06-29T12:56:19.385+0000] {logging_mixin.py:188} INFO - Failed for UC0BletW9phE4xHFM44q4qKA: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UC0BletW9phE4xHFM44q4qKA&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:19.389+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCFp65-s_fyaBjVZbVyp--Kw
+[2025-06-29T12:56:19.586+0000] {logging_mixin.py:188} INFO - Failed for UCFp65-s_fyaBjVZbVyp--Kw: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCFp65-s_fyaBjVZbVyp--Kw&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:19.588+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCFMbX7frWZfuWdjAML0babA
+[2025-06-29T12:56:19.768+0000] {logging_mixin.py:188} INFO - Failed for UCFMbX7frWZfuWdjAML0babA: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCFMbX7frWZfuWdjAML0babA&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:19.771+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCMJbbWyIziiUamP5JKK9yAA
+[2025-06-29T12:56:19.955+0000] {logging_mixin.py:188} INFO - Failed for UCMJbbWyIziiUamP5JKK9yAA: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCMJbbWyIziiUamP5JKK9yAA&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:19.957+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCTDJ9osmaIty0MVkUZymVmQ
+[2025-06-29T12:56:20.160+0000] {logging_mixin.py:188} INFO - Failed for UCTDJ9osmaIty0MVkUZymVmQ: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCTDJ9osmaIty0MVkUZymVmQ&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:20.163+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCi7Zk9baY1tvdlgxIML8MXg
+[2025-06-29T12:56:20.341+0000] {logging_mixin.py:188} INFO - Failed for UCi7Zk9baY1tvdlgxIML8MXg: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCi7Zk9baY1tvdlgxIML8MXg&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:20.343+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCDrLGkZTcNCshOLiKi5NtEw
+[2025-06-29T12:56:20.525+0000] {logging_mixin.py:188} INFO - Failed for UCDrLGkZTcNCshOLiKi5NtEw: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCDrLGkZTcNCshOLiKi5NtEw&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:20.527+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCkvK_5omS-42Ovgah8KRKtg
+[2025-06-29T12:56:20.714+0000] {logging_mixin.py:188} INFO - Failed for UCkvK_5omS-42Ovgah8KRKtg: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCkvK_5omS-42Ovgah8KRKtg&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:20.718+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCWICXNlSLc7eeNazpzUZcLg
+[2025-06-29T12:56:20.900+0000] {logging_mixin.py:188} INFO - Failed for UCWICXNlSLc7eeNazpzUZcLg: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCWICXNlSLc7eeNazpzUZcLg&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:20.902+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCX6OQ3DkcsbYNE6H8uQQuVA
+[2025-06-29T12:56:21.068+0000] {logging_mixin.py:188} INFO - Failed for UCX6OQ3DkcsbYNE6H8uQQuVA: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCX6OQ3DkcsbYNE6H8uQQuVA&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:21.069+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCKrdjiuS66yXOdEZ_cOD_TA
+[2025-06-29T12:56:21.231+0000] {logging_mixin.py:188} INFO - Failed for UCKrdjiuS66yXOdEZ_cOD_TA: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCKrdjiuS66yXOdEZ_cOD_TA&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:21.231+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UC5qM39SKEWXUJxdAMC0JVVA
+[2025-06-29T12:56:21.393+0000] {logging_mixin.py:188} INFO - Failed for UC5qM39SKEWXUJxdAMC0JVVA: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UC5qM39SKEWXUJxdAMC0JVVA&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:21.395+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCLXzq85ijg2LwJWFrz4pkmw
+[2025-06-29T12:56:21.594+0000] {logging_mixin.py:188} INFO - Failed for UCLXzq85ijg2LwJWFrz4pkmw: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCLXzq85ijg2LwJWFrz4pkmw&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:21.598+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCwtnkRZcvL4bfopzJ-Von8Q
+[2025-06-29T12:56:21.775+0000] {logging_mixin.py:188} INFO - Failed for UCwtnkRZcvL4bfopzJ-Von8Q: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCwtnkRZcvL4bfopzJ-Von8Q&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:21.776+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCsTcErHg8oDvUnTzoqsYeNw
+[2025-06-29T12:56:21.956+0000] {logging_mixin.py:188} INFO - Failed for UCsTcErHg8oDvUnTzoqsYeNw: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCsTcErHg8oDvUnTzoqsYeNw&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:21.958+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UC9-OpMMVoNP5o10_Iyq7Ndw
+[2025-06-29T12:56:22.152+0000] {logging_mixin.py:188} INFO - Failed for UC9-OpMMVoNP5o10_Iyq7Ndw: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UC9-OpMMVoNP5o10_Iyq7Ndw&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:22.155+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCpGCAsPlArOj9ptyCszxOOg
+[2025-06-29T12:56:22.358+0000] {logging_mixin.py:188} INFO - Failed for UCpGCAsPlArOj9ptyCszxOOg: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCpGCAsPlArOj9ptyCszxOOg&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:22.360+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCElGBUWDCa05jRzc2PfmGqQ
+[2025-06-29T12:56:22.529+0000] {logging_mixin.py:188} INFO - Failed for UCElGBUWDCa05jRzc2PfmGqQ: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCElGBUWDCa05jRzc2PfmGqQ&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:22.533+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCWJ2lWNubArHWmf3FIHbfcQ
+[2025-06-29T12:56:22.724+0000] {logging_mixin.py:188} INFO - Failed for UCWJ2lWNubArHWmf3FIHbfcQ: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCWJ2lWNubArHWmf3FIHbfcQ&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:22.727+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UChFLDvWugOtrzxmUCAjfnGg
+[2025-06-29T12:56:22.916+0000] {logging_mixin.py:188} INFO - Failed for UChFLDvWugOtrzxmUCAjfnGg: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UChFLDvWugOtrzxmUCAjfnGg&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:22.920+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCZRdNleCgW-BGUJf-bbjzQg
+[2025-06-29T12:56:23.110+0000] {logging_mixin.py:188} INFO - Failed for UCZRdNleCgW-BGUJf-bbjzQg: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCZRdNleCgW-BGUJf-bbjzQg&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:23.112+0000] {logging_mixin.py:188} INFO - Running ETL for channel: UCPNxhDvTcytIdvwXWAm43cA
+[2025-06-29T12:56:23.294+0000] {logging_mixin.py:188} INFO - Failed for UCPNxhDvTcytIdvwXWAm43cA: 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=UCPNxhDvTcytIdvwXWAm43cA&key=AIzaSyAFiKSpDVcYBOkCe_3ts37XM3VE3DIduQ0
+[2025-06-29T12:56:23.297+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-06-29T12:56:23.323+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=youtube_kpi_daily_batch, task_id=run_batch_youtube_etl, execution_date=20250629T125613, start_date=20250629T125613, end_date=20250629T125623
+[2025-06-29T12:56:23.362+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-06-29T12:56:23.378+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
