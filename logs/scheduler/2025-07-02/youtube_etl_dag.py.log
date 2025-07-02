@@ -1062,3 +1062,234 @@
 [2025-07-02T12:46:01.850+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:46:01.849+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-07-02T12:46:01.875+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:46:01.875+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
 [2025-07-02T12:46:01.885+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.336 seconds
+[2025-07-02T12:46:32.168+0000] {processor.py:161} INFO - Started process (PID=8156) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:46:32.169+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:46:32.170+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:46:32.170+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:46:32.449+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:46:32.482+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:46:32.482+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:46:32.501+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:46:32.500+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:46:32.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.351 seconds
+[2025-07-02T12:47:02.772+0000] {processor.py:161} INFO - Started process (PID=8162) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:47:02.773+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:47:02.774+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:47:02.774+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:47:03.036+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:47:03.067+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:47:03.067+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:47:03.084+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:47:03.084+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:47:03.094+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.329 seconds
+[2025-07-02T12:47:33.403+0000] {processor.py:161} INFO - Started process (PID=8168) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:47:33.404+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:47:33.405+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:47:33.405+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:47:33.697+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:47:33.723+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:47:33.722+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:47:33.747+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:47:33.747+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:47:33.760+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.363 seconds
+[2025-07-02T12:48:04.020+0000] {processor.py:161} INFO - Started process (PID=8174) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:48:04.022+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:48:04.023+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:48:04.023+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:48:04.313+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:48:04.350+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:48:04.350+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:48:04.367+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:48:04.367+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:48:04.379+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.368 seconds
+[2025-07-02T12:48:34.682+0000] {processor.py:161} INFO - Started process (PID=8180) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:48:34.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:48:34.686+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:48:34.684+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:48:34.942+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:48:34.970+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:48:34.969+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:48:34.985+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:48:34.985+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:48:34.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.317 seconds
+[2025-07-02T12:49:05.079+0000] {processor.py:161} INFO - Started process (PID=8186) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:49:05.080+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:49:05.081+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:49:05.081+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:49:05.317+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:49:05.351+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:49:05.351+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:49:05.392+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:49:05.391+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:49:05.407+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.338 seconds
+[2025-07-02T12:49:35.612+0000] {processor.py:161} INFO - Started process (PID=8192) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:49:35.613+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:49:35.614+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:49:35.613+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:49:35.873+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:49:35.901+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:49:35.900+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:49:35.916+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:49:35.916+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:49:35.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.319 seconds
+[2025-07-02T12:50:06.208+0000] {processor.py:161} INFO - Started process (PID=8198) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:50:06.210+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:50:06.211+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:50:06.211+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:50:06.662+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:50:06.693+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:50:06.692+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:50:06.710+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:50:06.710+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:50:06.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.530 seconds
+[2025-07-02T12:50:37.051+0000] {processor.py:161} INFO - Started process (PID=8204) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:50:37.052+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:50:37.053+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:50:37.053+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:50:37.280+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:50:37.300+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:50:37.300+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:50:37.315+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:50:37.315+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:50:37.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.279 seconds
+[2025-07-02T12:51:07.493+0000] {processor.py:161} INFO - Started process (PID=8210) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:51:07.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:51:07.496+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:51:07.495+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:51:07.743+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:51:07.774+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:51:07.773+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:51:07.790+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:51:07.790+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:51:07.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.329 seconds
+[2025-07-02T12:51:37.990+0000] {processor.py:161} INFO - Started process (PID=8216) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:51:37.991+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:51:37.991+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:51:37.991+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:51:38.128+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:51:38.141+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:51:38.141+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:51:38.150+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:51:38.150+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:51:38.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.172 seconds
+[2025-07-02T12:52:08.446+0000] {processor.py:161} INFO - Started process (PID=8222) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:52:08.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:52:08.449+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:52:08.448+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:52:08.688+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:52:08.717+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:52:08.717+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:52:08.732+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:52:08.732+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:52:08.741+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.305 seconds
+[2025-07-02T12:52:38.798+0000] {processor.py:161} INFO - Started process (PID=8228) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:52:38.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:52:38.800+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:52:38.800+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:52:38.973+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:52:38.989+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:52:38.989+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:52:39.002+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:52:39.001+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:52:39.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.219 seconds
+[2025-07-02T12:53:09.132+0000] {processor.py:161} INFO - Started process (PID=8234) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:53:09.133+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:53:09.134+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:53:09.134+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:53:09.312+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:53:09.325+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:53:09.324+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:53:09.334+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:53:09.334+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:53:09.342+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.215 seconds
+[2025-07-02T12:53:39.631+0000] {processor.py:161} INFO - Started process (PID=8240) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:53:39.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:53:39.634+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:53:39.634+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:53:39.862+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:53:39.897+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:53:39.897+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:53:39.930+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:53:39.930+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:53:39.940+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.318 seconds
+[2025-07-02T12:54:10.304+0000] {processor.py:161} INFO - Started process (PID=8246) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:54:10.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:54:10.307+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:54:10.307+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:54:10.545+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:54:10.575+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:54:10.574+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:54:10.595+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:54:10.594+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:54:10.604+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.309 seconds
+[2025-07-02T12:54:40.667+0000] {processor.py:161} INFO - Started process (PID=8252) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:54:40.670+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:54:40.671+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:54:40.671+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:54:40.920+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:54:40.943+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:54:40.943+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:54:40.961+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:54:40.961+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:54:40.973+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.312 seconds
+[2025-07-02T12:55:11.313+0000] {processor.py:161} INFO - Started process (PID=8258) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:55:11.314+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:55:11.315+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:55:11.315+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:55:11.558+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:55:11.586+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:55:11.586+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:55:11.602+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:55:11.601+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:55:11.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.307 seconds
+[2025-07-02T12:55:41.644+0000] {processor.py:161} INFO - Started process (PID=8264) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:55:41.644+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:55:41.645+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:55:41.645+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:55:41.793+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:55:41.809+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:55:41.808+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:55:41.822+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:55:41.822+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:55:41.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.190 seconds
+[2025-07-02T12:56:12.010+0000] {processor.py:161} INFO - Started process (PID=8270) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:56:12.012+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:56:12.014+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:56:12.013+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:56:12.254+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:56:12.276+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:56:12.275+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:56:12.292+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:56:12.292+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:56:12.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.302 seconds
+[2025-07-02T12:56:42.428+0000] {processor.py:161} INFO - Started process (PID=8276) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:56:42.429+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:56:42.430+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:56:42.430+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:56:42.568+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:56:42.580+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:56:42.580+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:56:42.596+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:56:42.596+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:56:42.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.182 seconds
+[2025-07-02T12:57:12.995+0000] {processor.py:161} INFO - Started process (PID=8282) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:57:12.997+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:57:12.998+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:57:12.998+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:57:13.170+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:57:13.189+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:57:13.189+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:57:13.205+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:57:13.205+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:57:13.214+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.225 seconds
+[2025-07-02T12:57:43.314+0000] {processor.py:161} INFO - Started process (PID=8288) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:57:43.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:57:43.317+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:57:43.317+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:57:43.465+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:57:43.478+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:57:43.478+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:57:43.488+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:57:43.488+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:57:43.495+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.185 seconds
+[2025-07-02T12:58:13.878+0000] {processor.py:161} INFO - Started process (PID=8294) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:58:13.879+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:58:13.880+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:58:13.879+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:58:14.018+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:58:14.031+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:58:14.031+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:58:14.045+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:58:14.045+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:58:14.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.193 seconds
+[2025-07-02T12:58:44.230+0000] {processor.py:161} INFO - Started process (PID=8300) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:58:44.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:58:44.233+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:58:44.232+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:58:44.489+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:58:44.510+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:58:44.510+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:58:44.525+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:58:44.525+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:58:44.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.318 seconds
+[2025-07-02T12:59:14.716+0000] {processor.py:161} INFO - Started process (PID=8306) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:59:14.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:59:14.719+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:59:14.718+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:59:14.864+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:59:14.880+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:59:14.879+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:59:14.895+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:59:14.895+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:59:14.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.194 seconds
+[2025-07-02T12:59:45.226+0000] {processor.py:161} INFO - Started process (PID=8312) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:59:45.227+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T12:59:45.228+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:59:45.228+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:59:45.475+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T12:59:45.501+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:59:45.501+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T12:59:45.521+0000] {logging_mixin.py:188} INFO - [2025-07-02T12:59:45.521+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T12:59:45.532+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.314 seconds
+[2025-07-02T13:00:15.920+0000] {processor.py:161} INFO - Started process (PID=8318) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T13:00:15.922+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T13:00:15.923+0000] {logging_mixin.py:188} INFO - [2025-07-02T13:00:15.923+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T13:00:16.097+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T13:00:16.122+0000] {logging_mixin.py:188} INFO - [2025-07-02T13:00:16.122+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T13:00:16.135+0000] {logging_mixin.py:188} INFO - [2025-07-02T13:00:16.135+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T13:00:16.146+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.234 seconds
+[2025-07-02T13:00:46.214+0000] {processor.py:161} INFO - Started process (PID=8324) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T13:00:46.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T13:00:46.216+0000] {logging_mixin.py:188} INFO - [2025-07-02T13:00:46.216+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T13:00:46.348+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T13:00:46.361+0000] {logging_mixin.py:188} INFO - [2025-07-02T13:00:46.361+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T13:00:46.371+0000] {logging_mixin.py:188} INFO - [2025-07-02T13:00:46.371+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T13:00:46.379+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.169 seconds
+[2025-07-02T13:01:16.539+0000] {processor.py:161} INFO - Started process (PID=8330) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T13:01:16.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T13:01:16.542+0000] {logging_mixin.py:188} INFO - [2025-07-02T13:01:16.542+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T13:01:16.830+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T13:01:16.858+0000] {logging_mixin.py:188} INFO - [2025-07-02T13:01:16.858+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T13:01:16.876+0000] {logging_mixin.py:188} INFO - [2025-07-02T13:01:16.876+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T13:01:16.885+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.354 seconds
+[2025-07-02T13:01:47.015+0000] {processor.py:161} INFO - Started process (PID=8336) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T13:01:47.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T13:01:47.017+0000] {logging_mixin.py:188} INFO - [2025-07-02T13:01:47.017+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T13:01:47.266+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T13:01:47.290+0000] {logging_mixin.py:188} INFO - [2025-07-02T13:01:47.289+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T13:01:47.307+0000] {logging_mixin.py:188} INFO - [2025-07-02T13:01:47.307+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T13:01:47.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.323 seconds
+[2025-07-02T13:02:17.489+0000] {processor.py:161} INFO - Started process (PID=8342) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T13:02:17.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T13:02:17.493+0000] {logging_mixin.py:188} INFO - [2025-07-02T13:02:17.492+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T13:02:17.671+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T13:02:17.688+0000] {logging_mixin.py:188} INFO - [2025-07-02T13:02:17.688+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T13:02:17.702+0000] {logging_mixin.py:188} INFO - [2025-07-02T13:02:17.702+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T13:02:17.711+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.229 seconds
+[2025-07-02T13:02:47.969+0000] {processor.py:161} INFO - Started process (PID=8348) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T13:02:47.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-07-02T13:02:47.971+0000] {logging_mixin.py:188} INFO - [2025-07-02T13:02:47.971+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T13:02:48.107+0000] {processor.py:840} INFO - DAG(s) 'youtube_kpi_daily_batch' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-07-02T13:02:48.121+0000] {logging_mixin.py:188} INFO - [2025-07-02T13:02:48.121+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-02T13:02:48.131+0000] {logging_mixin.py:188} INFO - [2025-07-02T13:02:48.130+0000] {dag.py:3823} INFO - Setting next_dagrun for youtube_kpi_daily_batch to 2025-07-02 00:00:00+00:00, run_after=2025-07-03 00:00:00+00:00
+[2025-07-02T13:02:48.138+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.173 seconds

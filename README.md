@@ -71,17 +71,42 @@ This project is a product-oriented, end-to-end ETL pipeline designed for SaaS-st
 ## How to Run
 
 ### 1. Set up Environment
-Create a `.env` file in the project root (not included in the repo for security):
-```
-YOUTUBE_API_KEY=your_youtube_api_key_here
-DB_NAME=youtube_db
-DB_USER=airflow
-DB_PASSWORD=airflow
-DB_HOST=postgres
-DB_PORT=5432
-BATCH_SIZE=50
-MAX_CHANNELS= 1000
-```
+Follow these steps to set up and run the project locally:
+
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/YonatanHanasav/youtube-analytics-project.git
+   cd youtube-analytics-project
+   ```
+
+2. **Create a virtual environment**
+   ```sh
+   python -m venv venv
+   # Activate the virtual environment:
+   # On macOS/Linux:
+   source venv/bin/activate
+   # On Windows:
+   venv\Scripts\activate
+   ```
+
+3. **Install dependencies**
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+4. **Set up environment variables**
+   - Create a `.env` file in the project root (not included in the repo for security). Use this template:
+
+     ```
+     YOUTUBE_API_KEY=your_youtube_api_key_here
+     DB_NAME=youtube_db
+     DB_USER=airflow
+     DB_PASSWORD=airflow
+     DB_HOST=postgres
+     DB_PORT=5432
+     BATCH_SIZE=50
+     MAX_CHANNELS=1000
+     ```
 
 ### 2. Install Docker Desktop
 Ensure Docker Desktop is installed and running on your machine.
