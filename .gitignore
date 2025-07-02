@@ -37,3 +37,6 @@ logs/
 
 # Secrets
 .env
+
+# Data
+data/US_youtube_trending_data.csv
